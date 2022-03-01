@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+
+}
+
+body{
+
+}
+.site-nav{
+    position: absolute;
+    top: 0;
+}
+.site-logo{
+    width: 150px;
+}
+
+.home{
+    background-image: url(../img/bg-shape.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.home-h1{
+    font-weight: bolder !important;
+}
+
+.about{
+    background-color: #7E76F910;
+}
+
+.about-text{
+    background-image: url(../img/bg-2.svg);
+    background-size: 100%;
+    background-position:center;
+}
+
+.services{
+    background-image: url(../img/bg-3.svg);
+    background-size: 100%;
+    background-position:center;
+}
+
+.card-text{
+    font-weight: bolder;
+}
+
+.service-card{
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.service-card-dec{
+    height: 180px;
+}
+
+.pricing{
+    background-color: #7E76F915;
+}
+
+@media screen and (min-width:1200px){
+    .content-1{
+        width: 85% !important;
+    }
+}
+@media screen and (max-width:576px){
+    .content-2,.content-2-text{
+        width: 100% !important;
+    }
+}
